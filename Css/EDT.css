@@ -1,0 +1,113 @@
+header{
+    background-color: aqua;
+    width: auto;
+    height: auto;
+  }
+  .bouton {
+    background-color: none;
+    margin: auto;
+    padding: 20px;
+    width: 400px ;
+    height: 04px;
+    float: left;
+    display: flex;
+    text-align: center;
+  }
+   button{
+  
+    background-color: #009fe3;
+    width:200px;
+    height: 50px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 05%;
+    text-align: center;
+    display: inline-block;
+    border-color:#009fe3;
+    
+  }
+  button:hover{
+    background-color: darkorange;
+    border-color: darkorange;
+    box-shadow: 50px;
+  
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow:hidden;
+      background-color:none;
+    }
+    
+    li {
+      float: right;
+    }
+    header{
+      display: inline;
+    }
+  .logo{
+      float:inline-start;
+  
+  }
+    
+    li a {
+      display: block;
+      background-color:none;
+      width: 70px;
+      color:black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      height: 25px;
+      margin: 25px;
+      border-radius: 15%;
+    }
+    /* Sous menu */
+    .deroulant{
+      display: none;
+      box-shadow: 2px;
+      background-color:azure;
+      position: absolute;
+      width: auto;
+      z-index: 1000;
+    }
+    nav > ul li:hover .deroulant{
+      display: block;
+    }
+    .deroulant li{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .deroulant a{
+      padding: 10px;
+      border-bottom: none;
+      width: auto;
+    }
+    .deroulant a:hover{
+      border-bottom: none;
+      background-color: darkorange;
+      
+    }
+    
+    /* Change la couleur du lien quand on clique dessus*/
+    li a:hover {
+      background-color:darkorange;
+    }
+    footer{
+      background-color:aliceblue;
+    }
+    .name{
+      text-align:left;
+      font-size: medium;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 14px 14px;
+      margin: 25px;
+      background-color:none;
+      width: 1300px;
+      height: auto;
+      float: left;
+    }
+    
+  
